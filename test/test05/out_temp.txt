@@ -1,0 +1,8 @@
+ 0 - pop: 0, full: 0, empty: 1, data_in:     0, data_out:     x, buffer: '{ x,  x,  x,  x,  x};
+10 - pop: 1, full: 0, empty: 0, data_in: 10000, data_out:     x, buffer: '{ x,  x,  x,  x, 10000};
+20 - pop: 2, full: 0, empty: 0, data_in: 20000, data_out:     x, buffer: '{ x,  x,  x, 20000, 10000};
+30 - pop: 3, full: 0, empty: 0, data_in: 30000, data_out:     x, buffer: '{ x,  x, 30000, 20000, 10000};
+40 - pop: 4, full: 0, empty: 0, data_in: 40000, data_out:     x, buffer: '{ x, 40000, 30000, 20000, 10000};
+50 - pop: 5, full: 1, empty: 0, data_in: 50000, data_out:     x, buffer: '{50000, 40000, 30000, 20000, 10000};
+60 - pop: 4, full: 0, empty: 0, data_in: 60000, data_out: 10000, buffer: '{50000, 40000, 30000, 20000,  x};
+70 - pop: 4, full: 0, empty: 0, data_in: 60000, data_out: 20000, buffer: '{50000, 40000, 30000,  x, 60000};

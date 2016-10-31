@@ -1,0 +1,11 @@
+ 0 - pop: 0, full: 0, empty: 1, data_in: 100, data_out:   x, buffer: '{ x,  x,  x};
+ 5 - pop: 1, full: 0, empty: 0, data_in: 100, data_out:   x, buffer: '{ x,  x, 100};
+10 - pop: 0, full: 0, empty: 1, data_in: 150, data_out: 100, buffer: '{ x,  x,  x};
+15 - pop: 1, full: 0, empty: 0, data_in: 150, data_out: 100, buffer: '{ x, 150,  x};
+20 - pop: 1, full: 0, empty: 0, data_in: 200, data_out: 100, buffer: '{ x, 150,  x};
+25 - pop: 2, full: 0, empty: 0, data_in: 200, data_out: 100, buffer: '{200, 150,  x};
+30 - pop: 2, full: 0, empty: 0, data_in: 250, data_out: 100, buffer: '{200, 150,  x};
+35 - pop: 3, full: 1, empty: 0, data_in: 250, data_out: 100, buffer: '{200, 150, 250};
+40 - pop: 2, full: 0, empty: 0, data_in: 255, data_out: 150, buffer: '{200,  x, 250};
+45 - pop: 3, full: 1, empty: 0, data_in: 255, data_out: 150, buffer: '{200, 255, 250};
+50 - pop: 2, full: 0, empty: 0, data_in:   0, data_out: 200, buffer: '{ x, 255, 250};

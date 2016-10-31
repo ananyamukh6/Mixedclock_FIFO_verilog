@@ -1,0 +1,8 @@
+ 0 - pop: 0, full: 0, empty: 1, data_in:   0, data_out:   x, buffer: '{ x,  x,  x};
+10 - pop: 1, full: 0, empty: 0, data_in: 100, data_out:   x, buffer: '{ x,  x, 100};
+20 - pop: 1, full: 0, empty: 0, data_in: 110, data_out: 100, buffer: '{ x, 110,  x};
+30 - pop: 2, full: 0, empty: 0, data_in: 120, data_out: 100, buffer: '{120, 110,  x};
+40 - pop: 2, full: 0, empty: 0, data_in: 130, data_out: 110, buffer: '{120,  x, 130};
+50 - pop: 3, full: 1, empty: 0, data_in: 140, data_out: 110, buffer: '{120, 140, 130};
+60 - pop: 2, full: 0, empty: 0, data_in: 150, data_out: 120, buffer: '{ x, 140, 130};
+70 - pop: 2, full: 0, empty: 0, data_in: 150, data_out: 130, buffer: '{150, 140,  x};

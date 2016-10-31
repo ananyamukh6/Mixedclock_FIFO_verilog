@@ -1,0 +1,7 @@
+# vsim -L ../../bin -do util/simulate-do -c -lic_plus -quiet -novopt mixed_clock_fifo fifo_testbench 
+# Refreshing /afs/glue.umd.edu/home/glue/s/w/swkenney/home/enpm674_user/projects/proj2-part2/test/test02/work.mixed_clock_fifo
+# Refreshing /afs/glue.umd.edu/home/glue/s/w/swkenney/home/enpm674_user/projects/proj2-part2/test/test02/work.fifo_testbench
+# do util/simulate-do 
+# ** Note: $finish    : fifo_testbench.v(52)
+#    Time: 60 ns  Iteration: 0  Instance: /fifo_testbench
+  Instance: /fifo_testbench
